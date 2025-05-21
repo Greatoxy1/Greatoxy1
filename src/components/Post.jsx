@@ -16,3 +16,4 @@ export function Post() {
     </article>
   );
 }
+export default Post;
