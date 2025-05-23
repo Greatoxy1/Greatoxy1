@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-weight:400 ;
+
+  --color-primary: hsl(174, 90%, 51%);
+  --color-grey: #1c0698;
+}
+body{
+  color: rgb(45, 3, 234);
+}
+Header {
+  color: rgb(193, 22, 193);
+}
+button {
+  
+  color: chocolate;
+  
+}
