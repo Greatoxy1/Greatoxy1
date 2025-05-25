@@ -1,19 +1,19 @@
+import { IconButton } from './IconButton';
+import { PostMeta } from './PostMeta';
 import './Post.css';
 
-export function Post() {
+export function Post({ title, date, author }) {
   return (
     <article className="Post">
-      <h2 className="Post-title">My first Posting</h2>
-      <div className=" Post-content">
-        <span className="post-author">from Tahiru</span>
-        <span className="Post-date">
-          on <time>2025-05-11</time>
-        </span>
+      <h2 className="Post-title">{title}</h2>
+      <div className="Post-content">
+        <div className="Post-meta">
+          <PostMeta author={author} date={date} />
+        </div>
         <div className="Post-button">
-          <button>Read more</button>
+          <IconButton>Read more</IconButton>
         </div>
       </div>
     </article>
   );
 }
-export default Post;
