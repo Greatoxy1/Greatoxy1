@@ -1,3 +1,56 @@
-.App {
-  padding: 1.5em;
+.message-board {
+  padding: 20px;
+  font-family: "Comic Sans MS", cursive;
+}
+
+.post {
+  border: 2px solid #d33;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  background: #fff6f6;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.meta {
+  color: #444;
+  font-style: italic;
+}
+
+.votes {
+  font-weight: bold;
+  color: #d33;
+}
+
+.votes.negative {
+  color: #a00;
+}
+
+.icon-button {
+  background-color: #fff0f0;
+  border: 1px solid #d33;
+  padding: 6px 12px;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.toggle-btn {
+  display: inline-block;
+  background-color: #fff0f0;
+  border: 1px solid #d33;
+  padding: 6px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.summary {
+  margin-top: 12px;
+  color: #d33;
+  font-weight: bold;
 }

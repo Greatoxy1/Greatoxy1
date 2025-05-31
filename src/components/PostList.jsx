@@ -10,6 +10,7 @@ export function PostList({ posts }) {
             title={post.title}
             author={post.author}
             date={post.date}
+            summary={post.summary}
           />
         </li>
       ))}
