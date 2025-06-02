@@ -1,10 +1,10 @@
 import { Post } from './Post';
 import './PostList.css';
 
-export function PostList({ posts }) {
+export function PostList({ Posts }) {
   return (
     <ul className="PostList">
-      {posts.map((post) => (
+      {Posts.map((post) => (
         <li key={post.id} className="PostList-Item">
           <Post
             title={post.title}
@@ -17,3 +17,4 @@ export function PostList({ posts }) {
     </ul>
   );
 }
+export default PostList;
